@@ -55,7 +55,6 @@ if cookie:
 	TokenEAAD = PROX.EAAD()
 	TokenEAAF = PROX.EAAF()
 	TokenEABB = PROX.EABB()
-	<br>
 	EXAMPLE : 
     print(f"Generated Token: {TOKEN_EAAG}")
 else:
