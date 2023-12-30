@@ -16,8 +16,6 @@ from FBPROX import GetToken
 
 cookie = "cookie"
 PROX = GetToken(cookie)
-token = PROX.generate_token_eaab()
-print(f"Generated Token: {token}")
 TokenEAAG = PROX.EAAG()
 TokenEAAB = PROX.EAAB()
 TokenEAAI = PROX.EAAI()
@@ -27,6 +25,7 @@ TokenEAAE = PROX.EAAE()
 TokenEAAD = PROX.EAAD()
 TokenEAAF = PROX.EAAF()
 TokenEABB = PROX.EABB()
+print(f"Generated Token: {token}")
 
 ```
 Result  
