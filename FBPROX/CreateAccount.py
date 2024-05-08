@@ -8,7 +8,7 @@ from Crypto.Random import get_random_bytes
 from nacl.public import PublicKey as PK
 from nacl.public import SealedBox as SB
 
-Author = 'Dapunta Khurayra X'
+Author = 'Preshak Bhattarai'
 DefaultUA = 'Mozilla/5.0 (Linux; Android 13; SM-A055F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/119.0.6045.67 Mobile Safari/537.36'
 HeadersGet = lambda i=DefaultUA : {'Host':'m.facebook.com','Cache-Control':'max-age=0','Upgrade-Insecure-Requests':'1','User-Agent':i,'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7','Sec-Fetch-Site':'none','Sec-Fetch-Mode':'navigate','Sec-Fetch-User':'?1','Sec-Fetch-Dest':'document','Dpr':'1.25','Viewport-Width':'270','Sec-Ch-Ua':'','Sec-Ch-Ua-Mobile':'?1','Sec-Ch-Ua-Platform':'','Sec-Ch-Ua-Platform-Version':'','Sec-Ch-Ua-Model':'','Sec-Ch-Ua-Full-Version-List':'','Sec-Ch-Prefers-Color-Scheme':'dark','Accept-Encoding':'gzip, deflate','Accept-Language':'en-US,en;q=0.9','Priority':'u=0, i'}
 HeadersPost = lambda i=DefaultUA : {'Host':'m.facebook.com','Content-Length':'480','Sec-Ch-Ua':'','Sec-Ch-Ua-Mobile':'?1','User-Agent':i,'Viewport-Width':'360','Content-Type':'application/x-www-form-urlencoded','Sec-Ch-Ua-Platform-Version':'','X-Asbd-Id':'129477','Dpr':'1.25','Sec-Ch-Ua-Full-Version-List':'','Sec-Ch-Ua-Model':'','Sec-Ch-Prefers-Color-Scheme':'dark','Sec-Ch-Ua-Platform':'','Accept':'*/*','Origin':'https://m.facebook.com','Sec-Fetch-Site':'same-origin','Sec-Fetch-Mode':'cors','Sec-Fetch-Dest':'empty','Referer':'https://m.facebook.com/reg','Accept-Encoding':'gzip, deflate','Accept-Language':'en-US,en;q=0.9','Priority':'u=1, i'}
