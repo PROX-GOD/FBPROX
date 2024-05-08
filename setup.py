@@ -11,16 +11,16 @@ with open('README.md','r',encoding = 'utf-8') as doc:
   readme = doc.read()
 
 setup(
-  name = 'FBTools',
-  packages = ['FBTools'],
-  version = '0.0.2',
+  name = 'FBPROX',
+  packages = ['FBPROX'],
+  version = '0.0.3',
   license='MIT',
   description = 'Facebook Scrapper',
   long_description=readme,
   long_description_content_type="text/markdown",
-  author = 'Dapunta Khurayra X',
-  author_email = 'dapuntaxd@gmail.com',
-  url = 'https://github.com/Dapunta/FBTools',
+  author = 'Preshak Bhattarai',
+  author_email = 'proxjodd@gmail.com,
+  url = 'https://github.com/PROX-GOD/FBPROX',
   keywords = ['facebook-scraper', 'facebook-parser', 'facebook-scraper-without-apikey', 'facebook-tools', 'facebook'],
   python_requires=">=3.9",
   install_requires=[
